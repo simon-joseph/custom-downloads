@@ -1,0 +1,58 @@
+/* Add to index.html in <section id="downloads"> :
+   <a class="download_link" href="https://[PATH_TO]/[FILENAME].[STH]"><div class="download_description">[STH]</div></a>
+*/
+
+
+
+
+.download_link {
+	position: relative;
+  display: block;
+  float: right;
+  width: 90px;
+  height:70px;
+  overflow: hidden;
+  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat bottom left;
+}
+
+.download_link:hover {
+  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat top left;
+}
+
+.download_description{
+	position: absolute;
+	color: white;
+	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	letter-spacing: -1px;
+	bottom: 8px;
+	right: 15px;
+}
+ 
+
+/*Fix for pre-existing markups*/
+#downloads {
+	width: auto;
+	padding-left: 15px;
+}
+
+.zip_download_link {
+	position: relative;
+	text-indent: 0!important;
+	  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat bottom left;
+}
+
+.tar_download_link {
+	position: relative;
+	text-indent: 0!important;
+	  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat bottom left;
+}
+
+.zip_download_link:hover {
+  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat top left;
+}
+
+.tar_download_link:hover {
+  background: url("https://lh6.googleusercontent.com/-Oskegc6CbbA/UCPhEymXk_I/AAAAAAAAAqc/fqHw0N079BA/s800/sprite_download%2520copy.png") no-repeat top left;
+}
