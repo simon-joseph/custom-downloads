@@ -33,6 +33,7 @@
 
 /*Fix for pre-existing markups*/
 #downloads {
+	width: 100%; /*Fix to keep downloads in line*/
 	width: auto;
 	padding-left: 15px;
 }
